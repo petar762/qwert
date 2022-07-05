@@ -5,7 +5,7 @@ public class Test {
         Scanner myInput = new Scanner( System.in );
         System.out.print( "Enter amount in dollars: " );
         double dollar = myInput.nextDouble();
-        double lev = dollar * 1.65;
+        Double lev = dollar * 1.64549;
 
         System.out.println("Dollars in bgn: " + lev + " bgn");
 
